@@ -5,7 +5,7 @@ Typing using floats
 import math
 
 
-def floor(n: float) -> float:
+def floor(n: float) -> int:
     """
     args: n: float
     Returns: float
