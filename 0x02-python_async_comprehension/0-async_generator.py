@@ -7,10 +7,10 @@ Use the random module.
 """
 import asyncio
 import random
-from typing import Iterator
+from typing import Generator
 
 
-async def async_generator() -> Iterator[int]:
+async def async_generator() -> Generator[float, None, None]:
     """
     Returns: yield[int]
     """
